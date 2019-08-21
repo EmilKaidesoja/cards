@@ -1,0 +1,2 @@
+Requires PHP > 5
+
