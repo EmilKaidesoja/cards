@@ -1,9 +1,9 @@
 <?php
 function connect_db() {
  $servername = "localhost";
- $username = "a1800595";
- $password = "vaFYPv56j";
- $dbname = "a1800595";
+ $username = "emil";
+ $password = "password";
+ $dbname = "emil";
  // Create connection
 GIT Exercises 4 (13)
 29.12.2018
