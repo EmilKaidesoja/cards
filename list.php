@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 if($_SESSION['username'] == 'username') {
@@ -21,10 +22,9 @@ if($_SESSION['username'] == 'username') {
  } else {
  echo "0 results";
  }
- print("</html>");
-GIT Exercises 6 (14)
-29.12.2018
- mysqli_close($conn);
+print("</html>");
+
+mysqli_close($conn);
 } else {
  print("No access.");
 }
