@@ -23,9 +23,10 @@ if($_SESSION['username'] == 'username') {
  } else {
  echo "0 results";
  }
+ print("<br><br>");
 print("</html>");
 
-mysqli_close($conn);
+mysqli_cse($conn);
 } else {
  print("No access.");
 }
